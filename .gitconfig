@@ -1,3 +1,7 @@
+[user]
+  name = Taras Zubyk
+  email = zuta.developer@gmail.com
+
 [alias]
-	st = status
-	amend = git commit --amend
+  st = status
+  amend = commit --amend --no-edit
