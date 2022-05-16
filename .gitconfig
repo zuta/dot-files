@@ -9,6 +9,7 @@
   main = !git checkout main && git pull --rebase
   master = !git checkout master && git pull --rebase
   staging = !git checkout staging && git pull --rebase
+  qa = !git checkout qa && git pull --rebase
   unstage = reset --soft HEAD^
   ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
   ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
